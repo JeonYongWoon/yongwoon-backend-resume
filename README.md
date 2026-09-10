@@ -51,7 +51,7 @@
 ### 이커머스 플랫폼
 **2026.06 ~ 2026.07 (약 2주)**
 
-상품 조회, 장바구니, 주문, 문의, 실시간 상담, AI 챗봇을 제공하는 Spring Boot 기반 이커머스 API 서버. 팀 5명, 인기검색어·인기상품 캐싱 담당 (양지원-실시간 통신/인증인가, 한예진-관리자 주문 인덱싱, 박송이-동시성 제어, 민병준-상품 목록 인덱싱).
+상품 조회, 장바구니, 주문, 문의, 실시간 상담, AI 챗봇을 제공하는 Spring Boot 기반 이커머스 API 서버. 팀 5명, 인기검색어·인기상품 캐싱 담당 (팀원별 담당: 실시간 통신/인증인가, 관리자 주문 인덱싱, 동시성 제어, 상품 목록 인덱싱).
 
 **기술 스택**: Java 17, Spring Boot 4.1.0, Spring MVC, Spring Data JPA, Spring WebSocket(STOMP), Spring Cache, Redis, Querydsl 5.0.0, MySQL, H2, JWT(JJWT), Gradle
 
