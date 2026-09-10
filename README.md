@@ -20,7 +20,7 @@
 
 참여자 수에 따라 가격이 계단식으로 내려가는 공동구매 커머스 플랫폼. 팀 2명, 백엔드·프론트엔드 담당(결제 확정 동시성 제어·결제 정합성·판매자 주문/배송·식별자 코드 체계·관리자 대시보드).
 
-**기술 스택**: Java 17, Spring Boot 4.1.0, Spring Security, Spring Data JPA, QueryDSL, MySQL, Redis, WebSocket(STOMP), Spring AI(OpenAI), PortOne, Kakao, SendGrid, Docker, Railway, GitHub Actions, JUnit 5
+**기술 스택**: Java 17, Spring Boot 4.1.0, Spring Data JPA, QueryDSL, MySQL, Redis, WebSocket(STOMP), PortOne, Kakao, SendGrid, Docker, Railway, GitHub Actions, JUnit 5
 
 **주요 작업**
 
@@ -49,11 +49,11 @@
   - admin 노출과 PK 완전 대체(NOT NULL·UNIQUE 제약 포함)는 범위를 좁혀 후속 작업으로 남겨둔 1단계 작업.
 
 ### 이커머스 플랫폼
-**2026.06 ~ 2026.07 (2개월)**
+**2026.06 ~ 2026.07 (약 2주)**
 
 상품 조회, 장바구니, 주문, 문의, 실시간 상담, AI 챗봇을 제공하는 Spring Boot 기반 이커머스 API 서버. 팀 5명, 인기검색어·인기상품 캐싱 담당 (양지원-실시간 통신/인증인가, 한예진-관리자 주문 인덱싱, 박송이-동시성 제어, 민병준-상품 목록 인덱싱).
 
-**기술 스택**: Java 17, Spring Boot 4.1.0, Spring MVC, Spring Data JPA, Spring Security, Spring WebSocket(STOMP), Spring Cache, Redis, Spring AI(OpenAI), Querydsl 5.0.0, MySQL, H2, JWT(JJWT), Gradle
+**기술 스택**: Java 17, Spring Boot 4.1.0, Spring MVC, Spring Data JPA, Spring WebSocket(STOMP), Spring Cache, Redis, Querydsl 5.0.0, MySQL, H2, JWT(JJWT), Gradle
 
 **주요 작업**
 
